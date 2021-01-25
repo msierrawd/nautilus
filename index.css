@@ -1,0 +1,52 @@
+html body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Match Area Styling */
+.matchArea {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url(./nautilus/assets/matches.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+
+.matchTextArea {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+#issueStyle {
+	font-weight: bolder;
+	color: white;
+}
+
+#catalystStyle {
+	color: white;
+	font-size: 40px;
+}
+
+#agentsStyle {
+	color: white;
+}
+
+#readStyle {
+	color: white;
+}
+
+#seeStyle {
+	padding: 2px;
+	background-color: black;
+	color: white;
+}
